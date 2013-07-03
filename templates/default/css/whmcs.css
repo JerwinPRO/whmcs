@@ -122,7 +122,7 @@ a {
 }
 
 .navbar {
-    position: relative;
+   /* position: relative; */
 }
 .navbar .navbar-inner {
     height: 40px;
@@ -233,12 +233,16 @@ body {
 .navbar .navbar-inner {
     margin: 0 auto;
     padding: 0 20px;
-    width: 960px;
-    height: 40px;
-    -moz-border-radius: 6px;
+
+    /* width: 960px;*/
+
+    height: 20px;
+
+    /* -moz-border-radius: 6px;
     -webkit-border-radius: 6px;
     -o-border-radius: 6px;
-    border-radius: 6px;
+    border-radius: 6px;*/
+	border-top: 5px solid #9DC500;
 }
 
 .footerdivider {
